@@ -243,6 +243,29 @@ tipo(alcance): descripción corta
 | `refactor` | Reestructurar | Mover archivos sin cambiar contenido   |     |
 | `test`     | Pruebas       | Agregar tests o verificaciones         |     |
 
+## El flujo correcto (siempre este orden)
+
+```bash
+# PASO 1 — Ver qué hay en remoto SIN traerlo aún
+git fetch origin
+
+# PASO 2 — Ver la diferencia: ¿cuántos commits tienes atrás?
+git status
+# Output: "Your branch is behind 'origin/main' by 3 commits"
+
+# PASO 3 — Traer los cambios del remoto a tu local
+git pull origin main
+
+# PASO 4 — Ahora sí hacer tu trabajo local
+# (editar archivos, agregar contenido, etc.)
+
+# PASO 5 — Registrar tus cambios
+git add .
+git commit -m "feat(s02): agregar sesion semana 2"
+
+# PASO 6 — Subir al remoto
+git push origin main
+```
 
 
 
