@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Lab11Actions",
+    "maps": [
+        {
+            "name": "XR Lab",
+            "id": "8e933e57-e062-4ed8-9328-9be3b2aca796",
+            "actions": [
+                {
+                    "name": "ResetObjeto",
+                    "type": "Button",
+                    "id": "356928a7-3f72-4d0e-8dd3-32245c1a099e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1fbc0b1c-3afa-4fbf-a0e2-9d939226a13f",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetObjeto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
