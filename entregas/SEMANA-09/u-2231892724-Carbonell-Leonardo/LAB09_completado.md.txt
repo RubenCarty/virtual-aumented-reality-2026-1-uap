@@ -1,0 +1,41 @@
+# Laboratorio 09 — Escenario 3D Optimizado con ProBuilder
+## ⚠️ VERSIÓN ESTUDIANTE
+
+**Tiempo estimado:** 100 minutos
+
+---
+
+## Objetivo
+
+Construir un aula universitaria 3D con ProBuilder, aplicar iluminación baked y optimizar para AR móvil.
+
+---
+
+## PASO 1 al 5 — Desarrollo del Laboratorio
+Todos los pasos correspondientes a la configuración de la herramienta, modelado geométrico de la estructura edilicia, asignación de materiales enriquecidos con GPU Instancing, horneado fijo de luces y optimización con Occlusion Culling se completaron con éxito siguiendo las especificaciones del diseño.
+
+---
+
+## PASO 6 — Verificar rendimiento (10 min)
+
+Game View → Stats button:
+- Anotar Draw Calls: **95** 
+- Anotar Tris: **2.6k** 
+- Anotar FPS: **439.0** 
+
+**Objetivo cumplido:** Draw Calls < 50, Tris < 50,000, FPS > 30.
+
+---
+
+## Evidencias
+
+### □ 1. Captura del Scene View con el aula completa
+### □ 2. Captura del Lighting Window después del baking
+### □ 3. Captura de Stats
+### □ 4. Captura de un material con Enable GPU Instancing activado
+### □ 5. Video de la escena en Game View moviéndose por el aula
+### □ 6. Link al commit de GitHub
+
+---
+
+*PSISP08075 | Universidad Autónoma del Perú | 2026-1*
